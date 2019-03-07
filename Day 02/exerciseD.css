@@ -1,0 +1,29 @@
+
+body{
+    background-color: black;
+}
+
+
+
+.blue{
+    clear: both;
+    background-color: blue;
+   margin: 0 auto;
+    
+
+}
+.red{
+    background-color: red;
+   
+    float: left;
+    
+}
+.green{
+    background-color: green;
+   float: right;
+  
+}
+.box{
+height: 120px;
+width: 120px;
+}
