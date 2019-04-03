@@ -1,0 +1,57 @@
+body{
+    background-image: url "flowershop.jpg";
+    background-repeat: no-repeat;
+    width: 900px;
+}
+button{
+    background-color: greenyellow;
+    float: left;
+    border-block-end-color: greenyellow;
+    font: outline;
+    width: 100px;
+    height: 40px;
+    box-sizing: border-box;
+    border-radius: 20px;
+    margin-left: 20px;
+
+
+}
+
+#banner{
+    background-image: url("flowershop.jpg");
+    height: 500px;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+
+
+}
+#banner-content h1{
+   color: white;
+   
+}
+#banner-content p{
+   justify-content: flex-end; 
+}
+.content{
+    background-color: rgb(196, 236, 179);
+    /* display: grid;
+    grid-template-columns: auto auto; */
+
+    display: flex;
+    justify-content: space-evenly;
+    flex-wrap: wrap;
+}
+.image{
+    display: flex;
+    justify-content: center;
+    align-content: center;
+    padding: 40px;
+    
+}
+.image p{
+   
+    width: 130px;
+    margin: 0 auto;
+
+}
